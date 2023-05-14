@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="myFont"
+		parent="TextAppearance.AppCompat">
+		<item name="android:fontFamily">@font/lato</item>
+		<item name="android:textSize">16sp</item>
+		<item name="android:paddingTop">3sp</item>
+		<item name="android:paddingBottom">3sp</item>
+		<item name="android:lineSpacingExtra">5sp</item>
+	</style>
+
+	<style name="imageUserAvatar">
+		<item name="android:foreground">@drawable/avatar_frame</item>
+		<item name="android:scaleType">centerCrop</item>
+		<item name="contentPadding">3dp</item>
+		<item name="shapeAppearance">@style/completeRounding</item>
+	</style>
+
+	<style name="completeRounding"
+		parent="">
+		<item name="cornerFamily">rounded</item>
+		<item name="cornerSize">50%</item>
+	</style>
+
+
+</resources>
